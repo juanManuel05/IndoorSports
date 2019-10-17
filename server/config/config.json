@@ -1,0 +1,12 @@
+{
+    "test":{
+        "PORT" : 3000,
+        "MONGODB_URI": "mongodb://127.0.0.1:27017/indoorSportsTest",
+        "JWT_SECRET": "adpojasdj1083298" 
+    },
+    "development":{
+        "PORT" : 3000,
+        "MONGODB_URI": "mongodb://127.0.0.1:27017/indoorSports",
+        "JWT_SECRET": "dpaosdopasd98q3u8" 
+    }
+}

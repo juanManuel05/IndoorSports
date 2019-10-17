@@ -1,0 +1,30 @@
+{
+  "name": "indoorsports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "SET \"NODE_ENV=test\" && mocha --timeout=20000 server/**/*.test.js || export NODE_ENV=test",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "engines": {
+    "node": "10.10.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "sharp": "^0.23.0",
+    "validator": "^11.1.0"
+  }
+}
